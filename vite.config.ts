@@ -10,6 +10,7 @@ export default ({ mode }: ConfigEnv): UserConfigExport => {
 
   return {
     plugins: [vue(), vueJsx()],
+    base: './',
     resolve: {
       alias: [
         {

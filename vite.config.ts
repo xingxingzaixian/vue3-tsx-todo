@@ -28,6 +28,9 @@ export default ({ mode }: ConfigEnv): UserConfigExport => {
       modules: {
         localsConvention: 'camelCase'
       }
+    },
+    build: {
+      outDir: 'docs'
     }
   };
 };
